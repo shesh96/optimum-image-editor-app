@@ -59,12 +59,14 @@ This was one of the most important parts of the project because incorrect coordi
 I separated logic clearly:
 
 ```
-src/
-├── components/
-├── hooks/
-├── pages/
-├── types/
-└── lib/
+root/
+├── backend/            # Node.js server (Future extensibility)
+├── src/                # Frontend logic
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── types/
+│   └── lib/
 ```
 
 - **Canvas logic** is inside custom hooks.
