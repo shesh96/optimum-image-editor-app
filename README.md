@@ -4,6 +4,8 @@ I built this image editor using React, TypeScript, and Fabric.js. The main goal 
 
 I focused on proper canvas state management, clean architecture, and making sure features like crop and undo/redo behave reliably even after scaling or zooming.
 
+[**🔴 Live Demo**](https://optimum-image-editor-app.vercel.app/)
+
 ## Tech Stack
 
 For the frontend, I used:
