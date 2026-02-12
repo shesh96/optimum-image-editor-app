@@ -4,7 +4,7 @@ I built this image editor using React, TypeScript, and Fabric.js. The main goal 
 
 I focused on proper canvas state management, clean architecture, and making sure features like crop and undo/redo behave reliably even after scaling or zooming.
 
-[**🔴 Live Demo**](https://optimum-image-editor-app.vercel.app/)
+[**🔴 Live Demo**]()
 
 ## Tech Stack
 
@@ -59,16 +59,13 @@ This was one of the most important parts of the project because incorrect coordi
 I separated logic clearly:
 
 ```
+src/
+├── components/
+├── hooks/
+├── pages/
+├── types/
+└── lib/
 ```
-root/
-├── backend/            # Node.js server (Future extensibility)
-├── src/                # Frontend logic
-│   ├── components/
-│   ├── hooks/
-│   ├── pages/
-│   ├── types/
-│   └── lib/
-``````
 
 - **Canvas logic** is inside custom hooks.
 - **UI** is separated into reusable components.
