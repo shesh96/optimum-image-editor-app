@@ -60,7 +60,7 @@ I separated logic clearly:
 
 ```
 ```
-.
+root/
 ├── backend/            # Node.js server (Future extensibility)
 ├── src/                # Frontend logic
 │   ├── components/
